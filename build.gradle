@@ -31,5 +31,12 @@ tasks.named("test") {
 }
 
 
+tasks.withType(Checkstyle) {
+    minHeapSize = "200m"
+    maxHeapSize = "1g"
+}
+
+
+
 
 
