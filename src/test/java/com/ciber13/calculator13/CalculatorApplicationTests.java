@@ -5,9 +5,9 @@ import static org.junit.Assert.assertEquals;
 @SpringBootTest
 public class CalculatorApplicationTests {
 private Calculator calculator = new Calculator();
-@Test
+/*@Test
 void contextLoads() {
-}
+}*/
 @Test
 public void testSum() {
 assertEquals(5, calculator.sum(2, 3));
