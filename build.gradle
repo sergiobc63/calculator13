@@ -32,11 +32,11 @@ tasks.named("test") {
 }
 
 
-tasks.named("CheckstyleMain") {
+/*tasks.named("CheckstyleMain") {
     minHeapSize = "200m"
     maxHeapSize = "1g"
 }
-
+*/
 
 
 
